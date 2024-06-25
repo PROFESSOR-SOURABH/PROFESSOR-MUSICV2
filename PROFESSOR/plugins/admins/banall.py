@@ -2,7 +2,7 @@ from PROFESSOR import app
 from config import OWNER_ID
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from PROFESSOR.utils.vip_ban import admin_filter
+from PROFESSOR.utils.PROF_ban import admin_filter
 from PROFESSOR.misc import SUDOERS
 
 BOT_ID = app.me.id  # Corrected this line
